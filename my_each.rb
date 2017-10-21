@@ -15,3 +15,9 @@ end
 # my_each(words) do |item|
 #  "#{item}"
 #end
+
+def my_each(words)
+  words.each do |item|
+    puts "#{item}"
+  end
+end
